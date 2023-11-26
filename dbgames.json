@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Half-Life",
+      "descricao": "Descrição do jogo 1",
+      "foto": "https://s2-techtudo.glbimg.com/hZaIZAECMV4ZBuVW8-L7pJtcBFM=/0x0:2133x1600/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/n/a/nM7S1mQBOvMtpnlHaEdg/half-life-gordon-freeman.jpg",
+      "preco": 20.69
+    },
+    {
+      "id": 2,
+      "produto": "Red Dead Redemption 2",
+      "descricao": "Descrição do jogo 2",
+      "foto": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
+      "preco": 299.9
+    },
+    {
+      "id": 3,
+      "produto": "Dark Souls 3",
+      "descricao": "Descrição do jogo 3",
+      "foto": "https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png",
+      "preco": 229.9
+    },
+    {
+      "id": 4,
+      "produto": "Batman Arkham City",
+      "descricao": "Descrição do jogo 4",
+      "foto": "https://th.bing.com/th/id/R.8a540667bf3bb75623e29a5a61c8f593?rik=Cwx37ZkiQ5I8%2fA&riu=http%3a%2f%2fwww.91danji.com%2fupload%2f20121128%2f20121128105811481.jpg&ehk=yOG0GTv8Mn3a10onW4LmW6LLWsvp1TiaQ5VU5s38At4%3d&risl=&pid=ImgRaw&r=0",
+      "preco": 22.49
+    }
+  ]
+}

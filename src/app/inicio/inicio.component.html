@@ -30,57 +30,26 @@
     <h2>Jogos mais comprados</h2>
 
     <mat-grid-list cols="3">
-        <mat-grid-tile>
+        <mat-grid-tile *ngFor="let produto of produtos">
             <mat-card class="example-card">
-                <img mat-card-image src="https://s2-techtudo.glbimg.com/hZaIZAECMV4ZBuVW8-L7pJtcBFM=/0x0:2133x1600/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/n/a/nM7S1mQBOvMtpnlHaEdg/half-life-gordon-freeman.jpg" alt="Half-life">
+                <img mat-card-image src="{{produto.foto}}" alt="Half-life">
         
                 <mat-card-header>
-                  <mat-card-title>Half-life</mat-card-title>
+                  <mat-card-title>{{produto.produto}}</mat-card-title>
                 </mat-card-header>
                 <mat-card-content>
+                  <p>
+                    {{produto.descricao}}
+                  </p>
 
                 </mat-card-content>
                 <mat-card-actions>
-                  <p>R$ 20,69</p>
+                  <p>{{produto.preco | currency : 'BRL'}}</p>
                   <button mat-button>Comprar</button>
                 </mat-card-actions>
               </mat-card>
         </mat-grid-tile>
-
-        <mat-grid-tile>
-            <mat-card class="example-card">
-                <img mat-card-image src="https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png" alt="Red Dead Redemption 2">
         
-                <mat-card-header>
-                  <mat-card-title>Red Dead Redemption 2</mat-card-title>
-                </mat-card-header>
-                <mat-card-content>
-                  
-                </mat-card-content>
-                <mat-card-actions>
-                  <p>R$ 299,90</p>
-                  <button mat-button>Comprar</button>
-                </mat-card-actions>
-              </mat-card>
-        </mat-grid-tile>
-
-        <mat-grid-tile>
-            <mat-card class="example-card">
-                <img mat-card-image src="https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png" alt="Dark Souls 3">
-        
-                <mat-card-header>
-                  <mat-card-title>Dark Souls 3</mat-card-title>
-                </mat-card-header>
-                <mat-card-content>
-                  
-                </mat-card-content>
-                <mat-card-actions>
-                  <p>R$ 229,90</p>
-                  <button mat-button>Comprar</button>
-                </mat-card-actions>
-              </mat-card>
-        </mat-grid-tile>
-
       </mat-grid-list>
       
       
